@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.match-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.match-box,
+.team-box,
+.details-box,
+.book-now-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.match-number {
+    margin: 0;
+    font-weight: bold;
+}
+
+.team-logo img {
+    max-width: 20px; /* Adjust the maximum width */
+    max-height: 20px; /* Adjust the maximum height */
+    vertical-align: middle; /* Align the images vertically */
+}
+
+.get-tickets a {
+    padding: 10px 20px;
+    background-color: rgb(12, 23, 47);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.get-tickets a:hover {
+    background-color: rgb(12, 23, 47);
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.match-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.match-number {
+    margin: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.team-logo {
+    margin-right: 20px;
+    margin-left: 150px;
+
+}
+.team-loga {
+    margin-right: 150px;
+    margin-left: 20px;
+
+}
+.team-logo img {
+    max-width: 1em;
+    max-height: 1em;
+}
+.team-loga img {
+    max-width: 1em;
+    max-height: 1em;
+}
+
+.team-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.match-time,
+.match-venue {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.get-tickets {
+    margin-left: 250px;
+}
+
+.get-tickets a {
+    padding: 10px 20px;
+    background-color: rgb(12, 23, 47);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.get-tickets a:hover {
+    background-color: rgb(12, 23, 47);
+}
+
+.team-logo img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
